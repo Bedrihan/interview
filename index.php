@@ -17,14 +17,14 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <title>3B Digital</title>
-<link href="css/style.css" rel="stylesheet" />
+<link href="./css/style.css" rel="stylesheet" />
 </head>
 <body>
 <header>
   <div class="navbar navbar-white bg-white shadow-sm">
     <div class="container">
     <a class="navbar-brand" href="#">
-          <img class="logo" src="images/image.png">
+          <img class="logo" src="./images/image.png">
         </a>
       <strong>Hi, John!</strong>
   </div>
@@ -39,7 +39,7 @@
                 <div class="col-md-6">
                   <div class="card card-article">
                     <h5 class="card-header"><?php print $articles[$i]["title"]; ?></h5>
-                    <img class="card-img" src="images/image.png" class="img">
+                    <img class="card-img" src="./images/image.png" class="img">
                     <div class="card-body">
                       <?php print strip_tags(substr($articles[$i]["content"], 0, 100));  echo '...<a href="'.$articles[$i]['url'].'" target="_blank"> read more</a>' ?>
                     </div>
